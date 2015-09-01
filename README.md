@@ -6,3 +6,5 @@
 目前能支持SOAP1.1和SOAP1.2 主要支持Document/Literal(wrapped).基本上支持80%以上的WebService调用,还有一些因为WSDL不标准等原因,不能自动的解析,需要调用LowLevelInstance来直接拼装SoapElement.
 
 这个框架于2011年开始创建并维护在私有的SVN上,因为现在的项目转向了RestFul的调用,不再使用WebService,以后会停止维护.因此开源出来.仅供有兴趣的人参考.
+
+关于SOAP的标准与解析,可以参考本人的一篇博客: [http://sunxiang0918.cn/2012/09/18/SOAP中Binding的四种样式/](http://sunxiang0918.cn/2012/09/18/SOAP中Binding的四种样式/)
