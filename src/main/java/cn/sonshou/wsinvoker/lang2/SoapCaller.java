@@ -113,7 +113,7 @@ public class SoapCaller
 		return this;
 	}
 	
-	public Object invoke() throws Exception
+	public OutputObject invoke() throws Exception
 	{
 		if(operationName==null){
 			throw new WSInvokerException("没有设置方法名");
